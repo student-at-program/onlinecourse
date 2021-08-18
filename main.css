@@ -52,13 +52,14 @@ body{
 .leftandright{
     width:100%;
     height: 100%;
+    overflow: auto;
     
 }
 .leftbar{
     float:left;
-    width:19.5%;
+    width:22.5%;
     height: 100%;
-    
+    overflow: scroll;
     
 }
 .contentbar{
@@ -112,6 +113,7 @@ div.leftandright a:hover{
     padding-bottom:0vh;
     border-radius:10px;
     margin-left:10px;
+    border-color: black;
 }
 .bottombtn:hover{
     float:right;
@@ -126,4 +128,5 @@ div.leftandright a:hover{
     border-radius:10px;
     margin-left:10px;
     outline:none;
+    /*border-color: #8cc6df; - to remove border*/
 }
