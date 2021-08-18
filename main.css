@@ -1,3 +1,129 @@
+
 html{
     font-family: 'Mukta', sans-serif;
+    height:100%;
+    width:100%;
+}
+nav{
+    height: 15%;
+    width:96%;
+    padding-left:2%;
+    padding-right:2%;
+    background:black;
+    
+}
+nav a{
+color:white;
+}
+.navlink:hover{
+    color:#8cc6df;
+}
+.sapnav:hover{
+    color:#8cc6df;
+}
+nav a:visited{
+    color:white;
+}
+.leftnav{
+    float: left;
+    width:30%;
+    margin:1%;
+    font-size: 35px;
+}
+
+.rightnav{
+    float:right;
+    width:50%;
+    text-align:right;
+    margin: 2%;
+    font-size:20px;
+}
+a:link, a:hover {
+    text-decoration: none;
+  }
+body{
+    overflow:auto;
+    height: 87%;
+    margin-top:0;
+    width:100%;
+    padding:0;
+    margin:0;
+}
+.leftandright{
+    width:100%;
+    height: 100%;
+    
+}
+.leftbar{
+    float:left;
+    width:19.5%;
+    height: 100%;
+    
+    
+}
+.contentbar{
+    float:right;
+    width:75.5%;
+    border: solid;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    border-left-width: 6px;
+    border-left-color: black;
+    height: 100%;
+    overflow: scroll;
+    
+}
+.content{
+    padding:5.5%;
+    
+}
+.tableheader{
+    font-size:25px;
+    text-decoration: underline;
+    color: #9d2b2b;
+}
+div.leftandright a:visited{
+    color: black;
+    text-decoration: none;
+}
+div.leftandright a:hover{
+    color: #9d2b2b;
+}
+.toclink{
+    color: black;
+    text-decoration: none;
+    font-size:18px;
+}
+.subtoc{
+    color: black;
+    text-decoration: none;
+    font-size:15px;
+}
+.bottombtn{
+    float:right;
+    background: black;
+    font-size:15px;
+    color:white;
+    border: solid;
+    font-family: 'Mukta', sans-serif;
+    padding:2vh;
+    padding-top:0vh;
+    padding-bottom:0vh;
+    border-radius:10px;
+    margin-left:10px;
+}
+.bottombtn:hover{
+    float:right;
+    background: #8cc6df;
+    font-size:15px;
+    color:black;
+    border: solid;
+    font-family: 'Mukta', sans-serif;
+    padding:2vh;
+    padding-top:0vh;
+    padding-bottom:0vh;
+    border-radius:10px;
+    margin-left:10px;
+    outline:none;
 }
