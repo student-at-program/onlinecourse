@@ -55,13 +55,20 @@ body{
     overflow: auto;
     
 }
-.leftbar{
+.contentimg{
+    width: 100%;
+}
+.leftbar{ /*hide toc scrollbar*/
     float:left;
     width:22.5%;
     height: 100%;
     overflow: scroll;
-    
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
+.leftbar::-webkit-scrollbar { /*hide toc scrollbar*/
+    display: none;
+  }
 .contentbar{
     float:right;
     width:75.5%;
