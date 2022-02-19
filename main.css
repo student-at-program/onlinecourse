@@ -66,6 +66,27 @@ body{
     -ms-overflow-style: none;
     scrollbar-width: none;
 }
+.leftbar2{ /*hide toc scrollbar*/
+    float:left;
+    width:50%;
+    height: 100%;
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.contentbar2{
+    float:right;
+    width:49.5%;
+    border: solid;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    border-left-width: 6px;
+    border-left-color: black;
+    height: 100%;
+    overflow: scroll;
+    
+}
 .leftbar::-webkit-scrollbar { /*hide toc scrollbar*/
     display: none;
   }
@@ -81,10 +102,23 @@ body{
     height: 100%;
     overflow: scroll;
     
+    
 }
 .content{
     padding:5.5%;
     
+    
+}
+.contentm{
+    margin-left:15.5%;
+    margin-right:15.5%;
+    
+    justify-content: center;
+    font-size: 15px;
+    
+}
+.makersfaire{
+    text-align: center;
 }
 .tableheader{
     font-size:25px;
@@ -136,4 +170,28 @@ div.leftandright a:hover{
     margin-left:10px;
     outline:none;
     /*border-color: #8cc6df; - to remove border*/
+}
+.schedule{
+    background: black;
+    font-size:20px;
+    color:white;
+    border: solid;
+    font-family: 'Mukta', sans-serif;
+    padding:2vh;
+    padding-top:0vh;
+    padding-bottom:0vh;
+    border-radius:10px;
+    margin-left:10px;
+    margin-right:30px;
+    border-color: black;
+}
+td{
+    font-size:20px;
+}
+.righttd{
+    border: 6px;
+    border-color: black;
+}
+.tablem{
+    margin-left:35%;
 }
